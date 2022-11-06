@@ -1,0 +1,61 @@
+body {
+    background: #f2f2f2;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+* {
+    font-family: "Rubik";
+}
+
+h1 {
+    font-size: 64px;
+}
+
+.card {
+    padding: 26px;
+    gap: 16px;
+
+    background: #fff;
+    border: 2px #dae9ef solid;
+    border-radius: 8px;
+    width: 285px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-prices {
+    display: flex;
+    flex-direction: column;
+
+    align-self: start;
+}
+
+.type {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.price {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.freq {
+    font-size: 14px;
+    color: #5F6974;
+    font-weight: 300;
+}
+
+.button {
+    border: 1px #5A45F2 solid;
+    border-radius: 8px;
+    width: 100%;
+    padding: 12px 16px;
+    background: #fff;
+}
